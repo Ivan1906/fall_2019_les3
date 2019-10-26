@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+
+  width: 50%;
+  height: 80%;
+
+  border: 1px solid;
+  border-radius: 5px;
+  overflow-y: scroll;
+  background: wheat;
+  padding: 10px;
+}
+
+.right, .left {
+  width: 50%;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+li {
+  cursor: pointer;
+  width: max-content;
+  margin: 2px 0;
+  list-style: decimal-leading-zero;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  background-color: aliceblue;
+}
+
+li:hover {
+  font-weight: bold;
+  text-shadow: blue 1px 1px;
+  border-style: hidden;
+  font-size: larger;
+}
